@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0B0202;
+    color: #af34ce;
+}
+
+header {
+    height: 20rem;
+    background-color: #712788;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    background: url('./photo1.webp');
+    background-position: bottom;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #FFF;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    
+}
+#container{
+    display: flex;
+    /* height: fit-content; */
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4rem;
+}
+#container > div{
+    width: 50%;
+}
+#img{
+    height: 30rem;
+    background: url('./photo1.webp');
+}
+h2 {
+    font-size: 1.75rem;
+    margin: 0;
+    color: #FFF;
+}
+
+main {
+    padding: 1rem;
+}
+#div1{
+    padding: 2rem;
+    border: 1px solid #8D28A5;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #8D28A5;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.05;
+}
+
+ul {
+    list-style-type:armenian;
+    padding-left: 1.5rem;
+}
+li {
+    padding-bottom: 1rem;
+
+}
+a {
+    color: #F56A0F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #af34ce;
+}
+
+footer {
+    background-color: #333;
+    color: #F56A0F;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    body {
+        padding: 0.5rem;
+    }
+
+    footer {
+        position: static;
+    }
+    #container{
+        flex-direction: column;
+        width: 100%;
+    }
+    #container > div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.highlight {
+    background-color: yellow;
+}
+body{
+    box-sizing: border-box;
+    width: 80%;
+    background-color: lightgrey;
+    margin: 2rem auto 0 auto;
+}
+#searchField{
+    width: 50%;
+}
+#taskList{
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.task {
+    cursor: pointer;
+}
+
+.taskItem button {
+    margin-left: 10px;
+}
+.newTaskRow{
+    display: flex;
+    gap: 1rem;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.taskDate {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: gray;
+}

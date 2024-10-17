@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista zadań</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="searchField" placeholder="Wyszukaj zadania...">
+
+    <div id="taskList">
+        <div class="taskItem">
+            <input type="checkbox">
+            <span class="task">Task 1</span>
+            <span class="taskDate"></span>
+            <button class="deleteButton">Usuń</button>
+        </div>
+        <div class="taskItem">
+            <input type="checkbox">
+            <span class="task">Task 2</span>
+            <span class="taskDate"></span>
+            <button class="deleteButton">Usuń</button>
+        </div>
+    </div>
+
+    <input type="text" id="newTaskText" placeholder="do zrobienia...">
+    <input type="datetime-local" id="newTaskDate">
+    <button id="addTaskButton">Zapisz</button>
+</body>
+</html>
